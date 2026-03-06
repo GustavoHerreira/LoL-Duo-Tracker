@@ -1,0 +1,42 @@
+## [ .NET - Compilação e Binários ]
+[Bb]in/
+[Oo]bj/
+[Log]s/
+[Tt]est[Rr]esults/
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+
+## [ Azure Functions - Local Settings ]
+# Nunca suba suas chaves da Riot ou strings de conexão!
+local.settings.json
+.python_packages/
+.azurefunctions/
+
+## [ Visual Studio / VS Code ]
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## [ Sistema Operacional ]
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+# WSL / Linux
+*~
+
+## [ Blazor / Web ]
+dist/
+wwwroot/dist/
+node_modules/
+.npm/
